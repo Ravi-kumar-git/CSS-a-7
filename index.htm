@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task7</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+            
+        .main{
+            background-color: lightgrey;
+            /* border: 2px solid black; */
+            /* height: 600px; */
+            /* width: 1500px; */
+            text-align: center;
+            padding: 30px;
+        }
+        .a,
+        .b,
+        .c,
+        .d{
+            /* border: 2px solid black; */
+            width: 250px;
+            height: 350px;
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+            vertical-align: top;
+        }
+        .a{
+            background-color: rgb(182, 19, 19);
+            color: white;
+            text-align: left;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* padding: 5px; */
+            width: 350px;
+            /* height: 350px; */
+        }
+        
+        .b,
+        .c,
+        .d{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+        }
+
+ 
+        i{
+            font-size: 30px;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            color: rgb(182, 19, 19);;
+
+        }
+        section{
+            /* border: 1px solid black; */
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            position: relative;
+            margin-top: 40px;
+            margin-left: 90px;
+            background-color: lightgray
+            
+        }
+        .b :hover section {
+            opacity: 1;
+          background-color: red;
+        }
+        .b :hover i {
+            opacity: 1;
+           color:white;
+        }
+
+        .c :hover section {
+            opacity: 1;
+          background-color: red;
+        }
+        .c :hover i {
+            opacity: 1;
+           color:white;
+        }
+
+        .d :hover section {
+            opacity: 1;
+          background-color: red;
+        }
+        .d :hover i {
+            opacity: 1;
+           color:white;
+        } 
+        
+        button{
+            color: white;
+            background-color:lightcoral; 
+            padding: 12px;
+            border-radius:20px;
+            border: 0px;
+            margin-left: 100px;
+
+        }
+        .a:hover button{
+            opacity: 1;
+            background-color: white;
+            color: red;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="a">
+            <h1>Why Choose <br> Yummy</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+            <a href=""><button>Learn More ></button></a>
+        </div>
+        <div class="b">
+            <div>
+                <section><i class="bi bi-clipboard-data"></i></section>                
+                <h3>Corporis voluptates officia eiusmod</h3>
+                <p2>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip </p2>
+            </div>
+
+        </div>
+        <div class="c">
+            <div>
+                <section><i class="bi bi-gem"></i></section>                
+                <h3>Ullamco laboris ladore lore pan</h3>
+                <p2>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p2>
+            </div>
+
+        </div>
+        <div class="d">
+            <div>
+                <section><i class="bi bi-inboxes"></i></section>                
+                <h3>Labore consequatur incidid dolore</h3>
+                <p2>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p2>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
